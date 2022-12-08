@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://www.unpkg.com/axios@1.1.3/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo"> PHYGITAL </div>
+        <div class="user"></div>
+        <div class="setting"></div>
+        <div class="question"></div>
+    </header>
+    <main class="main">
+        <div class="slider">
+            <div class="slider-item">My Projects</div>
+            <div class="slider-item">Marked</div>
+            <div class="slider-item">Deleted</div>
+            <div class="search"></div>
+        </div>
+        <div class="content">
+            <div class="navigator">
+                <div class="navigator-arrow"></div>
+                <div class="navigator-end">End Research</div>
+            </div>
+            <div class="left-content">
+                <div class="record-box">
+                    <div class="status">
+                        Recording
+                    </div>
+                    <div class="pauseBtn"></div>
+                    <div class="startBtn">
+                        Start Recording
+                    </div>
+                </div>
+                <div class="record-text">
+                    <div class="record-text-tone"></div>
+                    <div class="record-text-content">
+                    </div>
+                </div>
+            </div>
+            <div class="right-content">
+                <div class="arm">
+                    Amy Yang
+                </div>
+                <form class="form">
+                    <div class="form-title">
+                        Scenario A
+                    </div>
+                    <div class="form-checkbox">
+                        <input type="checkbox"> Task A: XXXXX
+                        <div class="right-icon"> </div>
+                    </div>
+                    <div class="form-checkbox">
+                        <input type="checkbox"> Task A: XXXXX
+                        <div class="right-icon"> </div>
+                    </div>
+                    <div class="form-checkbox">
+                        <input type="checkbox"> Task A: XXXXX
+                        <div class="right-icon"> </div>
+                    </div>
+                    <div class="form-checkbox">
+                        <input type="checkbox"> Task A: XXXXX
+                        <div class="right-icon"> </div>
+                    </div>
+                    <div class="form-info">Follow-up Questions</div>
+                    <div class="form-info2">How do you feel about this process to check-in?</div>
+                    <div class="form-btn">Add Notes...</div>
+                </form>
+                <form class="form">
+                    <div class="form-title">
+                        Scenario B
+                    </div>
+                    <div class="form-checkbox">
+                        <input type="checkbox"> Task A: XXXXX
+                        <div class="right-icon"> </div>
+                    </div>
+                    <div class="form-checkbox">
+                        <input type="checkbox"> Task A: XXXXX
+                        <div class="right-icon"> </div>
+                    </div>
+                    <div class="form-checkbox">
+                        <input type="checkbox"> Task A: XXXXX
+                        <div class="right-icon"> </div>
+                    </div>
+                    <div class="form-checkbox">
+                        <input type="checkbox"> Task A: XXXXX
+                        <div class="right-icon"> </div>
+                    </div>
+                    <div class="form-info">Follow-up Questions</div>
+                    <div class="form-info2">How do you feel about this process to check-in?</div>
+                    <div class="form-btn">Add Notes...</div>
+                </form>
+            </div>
+        </div>
+    </main>
+    
+    <div class="app" style="display: none;">
+        <button class="record-btn">record</button>
+        <audio controls="" class="audio-player" src=""></audio>
+    </div>
+    <script src="/bundle.js">
+    </script>
+     <script src="/index.js">
+    </script>
+</body>
+
+</html>
