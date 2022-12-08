@@ -1,10 +1,9 @@
 # How to start
 
-```
-Download the code folder first.
-```
+Download the code first.
+Run these commands to start.
 
-```Run these commands to start
+```
 npm install
 npm run start
 ```
